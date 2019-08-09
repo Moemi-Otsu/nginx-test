@@ -21,6 +21,8 @@ gem 'dotenv-rails'
 gem 'unicorn'
 # デプロイ時に必要
 gem 'mini_racer', platforms: :ruby
+# Qiitaを参考に自分で入れた
+gem 'bcrypt', '~> 3.1.7'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -30,6 +32,9 @@ group :development, :test do
   gem 'capistrano-rails'
   gem 'capistrano-rbenv'
   gem 'capistrano3-unicorn'
+  # Qiitaを参考に自分で入れた
+  gem 'ed25519'
+  gem 'bcrypt_pbkdf'
 end
 
 group :development do

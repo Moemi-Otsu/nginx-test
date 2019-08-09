@@ -1,0 +1,19 @@
+current directory: /Users/MoemiTaguchi/workspace/nginx-test/vendor/bundle/ruby/2.5.0/gems/byebug-11.0.1/ext/byebug
+/Users/MoemiTaguchi/.rbenv/versions/2.5.1/bin/ruby -I /Users/MoemiTaguchi/.rbenv/versions/2.5.1/lib/ruby/site_ruby/2.5.0 -r ./siteconf20190809-89124-14fcmrg.rb extconf.rb
+creating Makefile
+
+current directory: /Users/MoemiTaguchi/workspace/nginx-test/vendor/bundle/ruby/2.5.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/MoemiTaguchi/workspace/nginx-test/vendor/bundle/ruby/2.5.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/MoemiTaguchi/workspace/nginx-test/vendor/bundle/ruby/2.5.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20190809-89124-2z0mjb/byebug
